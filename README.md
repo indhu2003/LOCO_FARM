@@ -38,3 +38,13 @@ The onRequestPermissionsResult() method is used to check if the user has granted
 The onActivityResult() method is used to get the result of the camera or gallery intent. It also calls the classifyImage() method which is used to classify the image.
 The classifyImage() method is used to classify the image. It creates an instance of the TestNew model and creates inputs for reference. It then runs model inference and gets the result. It also reads the labels from the test_label.txt file and sets the result text view.
 Finally, the getMax() method is used to get the index of the class with the biggest confidence.
+
+
+
+
+
+![f720bd99-21f6-4368-9e8a-878948804586](https://user-images.githubusercontent.com/82955056/230299941-c89d1fa7-1843-4a1e-a7f3-e92c617169f0.jpg)
+
+
+
+
